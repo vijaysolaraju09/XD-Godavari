@@ -1,0 +1,92 @@
+.header {
+    margin: auto;
+    color: $dark-gray-color;
+
+    &__nav {
+        margin: 22px 0;
+    }
+    &-brand {
+        width: 300px;
+        margin: 0 147px 0 0;
+    }
+    &-logo {
+        height: 42px;
+        margin-right: 10px;
+    }
+    &__title {
+        font-size: 15px;
+        font-weight: $medium;
+        font-family: 'Roboto';
+    }
+    &__list {
+        list-style: none;
+        font-size: 14px;
+    }
+    &-top__list {
+        margin-bottom: 10px;
+
+        &>li {
+            margin: 0 10px 0 0;
+        }
+        &--sizing {
+            &>p {
+                margin: 0 10px;
+                font-weight: $bold;
+
+                &:nth-child(1) {
+                    font-size: 11px;
+                }
+                &:nth-child(2) {
+                    font-size: 14px;
+                }
+                &:nth-child(3) {
+                    font-size: 16px;
+                }
+            }
+        }
+        &--languages {
+            &>select {
+                border: 0;
+                background: transparent;
+            }
+        }
+        &--colors {
+            padding: 5px 0;
+
+            &>a {
+                display: block;
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                margin: 0 5px;
+
+                &:nth-child(1) {
+                    background-color: $voilet-color;
+                }
+                &:nth-child(2) {
+                    background-color: $light-green-color;
+                }
+                &:nth-child(3) {
+                    background-color: $yellow-color;
+                }
+            }
+        }
+        .right-border {
+            padding-right: 15px;
+            border-right: 1px solid;
+        }
+    }
+    &-bottom__list{
+        margin: 0;
+        
+        &>li {
+            padding: 0 10px;
+            border-right: 1px solid;
+            
+            &:last-child {
+                padding-right: 0px;
+                border-right: none;
+            }
+        }
+    }
+}
