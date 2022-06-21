@@ -1,0 +1,19 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    font-family: $primary-font;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.__container {
+    max-width: 1380px;
+    padding: 0 84px;
+}
