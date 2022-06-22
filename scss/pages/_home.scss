@@ -7,12 +7,16 @@
         width: 100%;
     }
     .dropdown {
-        height: 54px;
-        width: 54px;
+        padding: 15px 20px 10px;
         background-color: $yellow-color;
         left: 50%;
         bottom: 75px;
         border-radius: 25%;
+        .dropdown-box {
+            height: 20px;
+            width: 12px;
+            border: 2px solid $dark-gray-color;
+        }
     }
 }
 .about-us {
