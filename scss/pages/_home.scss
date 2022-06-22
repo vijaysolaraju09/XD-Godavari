@@ -61,40 +61,44 @@
     }
     &-info {
         width: 319px;
+        height: 382px;
         margin: 0 20px;
     }
+    &-images {
+        width:100%;
+        height: 100%;
+    }
     &-time {
-        background-color: $white-color;
+        background-color: $white-color ;
         padding: 0 10px;
-        margin: 25px 25px 0 0;
-        border-radius: 10px;
+        margin: 25px 25px 0 0 ;
+        border-radius: 10px ;
     }
     &-description {
-        color: $white-color;
-        padding: 15px;
-        margin-top: 80px;
-        background-color: #2918187e;
+        color: $white-color ;
+        padding: 15px ;
+        margin-top: 80px ;
+        background-color: $transparent-black-color ;
         &>h3 {
-            font-size: 18px;
+            font-size: 18px ;
         }
         &>p {
-            font-size: 11px;
+            font-size: 11px ;
         }
     }
     &-container {
         overflow: hidden;
     }
-    .day {
-        font-size: 31px;
-        margin: 0 5px 0 0;
+}
+.day {
+    font-size: 31px ;
+    margin: 0 5px 0 0 ;
+}
+.month-year {
+    font-size: 10px ;
+    &>* {
+        margin: 0 ;
     }
-    .month-year {
-        font-size: 10px;
-    }
-    .month, .year  {
-        margin: 0;
-    }
-
 }
 .services {
     margin-bottom: 75px;
